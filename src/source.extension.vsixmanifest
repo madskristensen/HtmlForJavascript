@@ -4,9 +4,11 @@
         <Identity Id="7a31876a-307d-42f3-8394-49482314ae7a" Version="1.0" Language="en-US" Publisher="Mads Kristensen" />
         <DisplayName>HTML for JavaScript</DisplayName>
         <Description xml:space="preserve">Colorizes HTML strings inside JavaScript and TypeScript. Works great for embedding HTML inside your script files.</Description>
+        <MoreInfo>https://github.com/madskristensen/HtmlForJavascript</MoreInfo>
         <License>Resources\LICENSE</License>
         <Icon>Resources\Icon.png</Icon>
         <PreviewImage>Resources\Icon.png</PreviewImage>
+        <Tags>html. javascript, typescript, strings</Tags>
     </Metadata>
     <Installation>
         <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[16.0, 17.0)" />

@@ -1,6 +1,6 @@
 # HTML for JavaScript
 
-[![Build status](https://ci.appveyor.com/api/projects/status/5fe8ha61syf9wirm?svg=true)](https://ci.appveyor.com/project/madskristensen/manifesttaskrunner)
+[![Build status](https://ci.appveyor.com/api/projects/status/ut93vejtms4dye73?svg=true)](https://ci.appveyor.com/project/madskristensen/htmlforjavascript)
 
 Colorizes HTML strings inside JavaScript and TypeScript. Works great for embedding HTML inside your script files.
 
