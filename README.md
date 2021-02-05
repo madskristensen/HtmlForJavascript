@@ -4,7 +4,7 @@
 
 Colorizes HTML strings inside JavaScript and TypeScript. Works great for embedding HTML inside your script files.
 
-Download this extension from the [CI build](https://www.vsixgallery.com/extension/ManifestTaskRunner.642e7f23-01f4-4f30-8c57-815b72cef483).
+Download this extension from the [CI build](https://www.vsixgallery.com/extension/7a31876a-307d-42f3-8394-49482314ae7a).
 
 -----------------------------------------
 
