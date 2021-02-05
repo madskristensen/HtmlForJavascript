@@ -10,7 +10,7 @@ Download this extension from the [CI build](https://www.vsixgallery.com/extensio
 
 Colorizes HTML strings inside JavaScript and TypeScript. Works great for embedding HTML inside your script files.
 
-<!-- Add screenshot -->
+<!-- TODO: Add screenshot -->
 
 ## License
 [Apache 2.0](LICENSE)
