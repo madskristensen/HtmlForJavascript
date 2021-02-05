@@ -12,7 +12,7 @@ An updated version of [Html Syntax Highlighter for JS String](https://marketplac
 
 Colorizes HTML strings inside JavaScript and TypeScript. Works great for embedding HTML inside your script files.
 
-<!-- TODO: Add screenshot -->
+![Screenshot](art/screenshot.png)
 
 ## License
 [Apache 2.0](LICENSE)
