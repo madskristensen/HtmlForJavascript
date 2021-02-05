@@ -8,6 +8,8 @@ Download this extension from the [CI build](https://www.vsixgallery.com/extensio
 
 -----------------------------------------
 
+An updated version of [Html Syntax Highlighter for JS String](https://marketplace.visualstudio.com/items?itemName=AvoBright.HtmlSyntaxHighlighterforJSString) extension by [AvoBright](https://github.com/AvoBright) with support for Visual Studio 2019.
+
 Colorizes HTML strings inside JavaScript and TypeScript. Works great for embedding HTML inside your script files.
 
 <!-- TODO: Add screenshot -->
