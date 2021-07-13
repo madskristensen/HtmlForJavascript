@@ -55,7 +55,8 @@ namespace HtmlForJavascript
         public HtmlDelimiterFormatDefinition()
         {
             DisplayName = "HTML Delimiter Character (JS String Literal)";
-            ForegroundColor = Colors.Blue;
+            ForegroundColor = ThemeColorHelper.IsThemeLight ? Colors.Blue :
+                                                            Colors.Silver;
         }
     }
 
@@ -70,7 +71,9 @@ namespace HtmlForJavascript
         public HtmlElementFormatDefinition()
         {
             DisplayName = "HTML Element (JS String Literal)";
-            ForegroundColor = Color.FromRgb(128, 0, 0);
+            ForegroundColor = ThemeColorHelper.IsThemeLight ? Color.FromRgb(128, 0, 0) :
+                                                            Color.FromRgb(86, 156, 214);
+
         }
     }
 
@@ -84,7 +87,8 @@ namespace HtmlForJavascript
         public HtmlAttributeNameFormatDefinition()
         {
             DisplayName = "HTML Attribute Name (JS String Literal)";
-            ForegroundColor = Colors.Red;
+            ForegroundColor = ThemeColorHelper.IsThemeLight ? Colors.Red :
+                                                              Color.FromRgb(156, 220, 254);
         }
     }
 
@@ -98,7 +102,8 @@ namespace HtmlForJavascript
         public HtmlQuoteFormatDefinition()
         {
             DisplayName = "HTML Quote (JS String Literal)";
-            ForegroundColor = Colors.Black;
+            ForegroundColor = ThemeColorHelper.IsThemeLight ? Colors.Black :
+                                                              Color.FromRgb(210, 210, 210);
         }
     }
 
@@ -112,7 +117,8 @@ namespace HtmlForJavascript
         public HtmlAttributeValueFormatDefinition()
         {
             DisplayName = "HTML Attribute Value (JS String Literal)";
-            ForegroundColor = Colors.Blue;
+            ForegroundColor = ThemeColorHelper.IsThemeLight ? Colors.Blue :
+                                                              Color.FromRgb(200, 200, 200);
         }
     }
 
@@ -126,8 +132,8 @@ namespace HtmlForJavascript
         public HtmlTextFormatDefinition()
         {
             DisplayName = "HTML Text (JS String Literal)";
-            ForegroundColor = Colors.Black;
+            ForegroundColor = ThemeColorHelper.IsThemeLight ? Colors.Black :
+                                                              Color.FromRgb(214, 157, 153);
         }
     }
-
 }

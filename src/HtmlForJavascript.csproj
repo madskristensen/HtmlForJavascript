@@ -48,6 +48,7 @@
     <Compile Include="Classification\HtmlClassifierProvider.cs" />
     <Compile Include="Classification\JsClassificationFormats.cs" />
     <Compile Include="Classification\JsStringClassifier.cs" />
+    <Compile Include="Helpers\ThemeColorHelper.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="HtmlForJavascriptPackage.cs" />
     <Compile Include="source.extension.cs">
@@ -71,6 +72,7 @@
     <Reference Include="PresentationCore" />
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.Composition" />
+    <Reference Include="System.Drawing" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.VisualStudio.SDK" Version="16.0.206" ExcludeAssets="runtime" />
