@@ -43,9 +43,8 @@ namespace HtmlForJavascript
                 {
                     if (cs.Span.Length > 2)
                     {
-                        var sspan = new SnapshotSpan(cs.Span.Start.Add(1), cs.Span.End.Subtract(1)); // exclude quote
-
-                        List<ClassificationSpan> classification = ScanLiteral(sspan);
+                        // the quotes are excluded in ScanLiteral
+                        List<ClassificationSpan> classification = ScanLiteral(cs.Span);
 
                         if (classification != null)
                         {
@@ -111,15 +110,18 @@ namespace HtmlForJavascript
             {
                 var c = literal[currentCharIndex];
 
+                //check is quote of start and end
+                if ((currentCharIndex == 0 || currentCharIndex == (literal.Length-1))  && IsQuote(c))
+                {
+                    currentCharIndex++;
+                    continue;
+                }
+
                 switch (state)
                 {
                     case State.Default:
                         {
-                            if (c != '<')
-                            {
-                                return null;
-                            }
-                            else
+                            if (c == '<')
                             {
                                 state = State.AfterOpenAngleBracket;
                                 continuousMark = null;
@@ -530,6 +532,11 @@ namespace HtmlForJavascript
             return result;
         }
         public event EventHandler<ClassificationChangedEventArgs> ClassificationChanged;
+
+        private bool IsQuote(char c)
+        {
+            return c == '\'' || c == '"' || c == '`';
+        }
     }
     #endregion //Classifier
 }
