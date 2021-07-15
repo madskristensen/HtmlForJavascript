@@ -133,7 +133,7 @@ namespace HtmlForJavascript
         {
             DisplayName = "HTML Text (JS String Literal)";
             ForegroundColor = ThemeColorHelper.IsThemeLight ? Colors.Black :
-                                                              Color.FromRgb(214, 157, 153);
+                                                              Color.FromRgb(214, 157, 133);
         }
     }
 }
